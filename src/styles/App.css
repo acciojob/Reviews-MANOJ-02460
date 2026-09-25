@@ -1,12 +1,35 @@
 h1 {
     color: #27aedb;
     text-align: center;
-    }
-    
+}
 
-button{
+
+button {
     color: #27aedb;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 16px;
+    padding: auto;
+
+}
+
+.review-container {
+    justify-content: center;
+    border: '1px solid #ddd';
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.person-img {
+    width: 250px;
+    height: 300px;
 }
