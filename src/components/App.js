@@ -90,7 +90,7 @@ const App = () => {
                 <button onClick={handelNext} disabled={currentIndex === reviewList.length - 1}>Next</button>
             </div>
             <div style={{marginTop:'20px'}}>
-                <button onClick={handleRandom} >suprise me</button>
+                <button onClick={handleRandom} className='random-btn'>suprise me</button>
             </div>
         </div>
     )
